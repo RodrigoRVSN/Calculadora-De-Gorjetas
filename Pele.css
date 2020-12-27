@@ -1,0 +1,78 @@
+@import url(https://fonts.gogleapis.com/css?family=Lato:300,500,650|PT++Mono);
+
+:root{
+    --primary-color: rgb(199, 129, 25);
+    --secondary-color: rgb(66, 93, 4);
+    --terciary-color: rgb(250, 111, 111);
+}
+body{
+    background-image: url(Eu/ace.jpg);
+    background-size: cover;
+    background-position: right;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container{
+    height: 540px;
+    width: 370px;
+    margin: 100px auto;
+    background-color: var(--terciary-color);
+    box-shadow: 5px 5px 5px var(--secondary-color);
+    border-radius: 25px;
+}
+
+.title{
+    background-color: var(--secondary-color);
+    color: var(--terciary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm{
+    padding-top: 12px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 18px; 
+}
+
+.formInput{
+    width: 55px;
+    padding: 5px 5px 7px 7px;
+    box-shadow: 3px 3px 3px var(--secondary-color);
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color);
+}
+
+.formSelect{
+    width: 220px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px; 
+    box-shadow: 3px 3px 3px var(--secondary-color);
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    width: 200px;
+    height: 40px;
+    font-size: 19px;
+    color: black;
+}
+
+#totalTip{
+    font-size: 20px;
+    margin-top: 4px;
+    text-align: center;
+}
