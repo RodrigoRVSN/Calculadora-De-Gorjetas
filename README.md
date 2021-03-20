@@ -4,4 +4,4 @@
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-https://rodrigorvsn.github.io/Calculadora-De-Gorjetas/
+![image](https://user-images.githubusercontent.com/75763403/111888813-9a45f680-89be-11eb-9366-f4d936c701fa.png)
